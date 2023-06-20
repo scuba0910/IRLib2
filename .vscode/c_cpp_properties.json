@@ -4,7 +4,22 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/bob/.platformio/packages/framework-arduino-mbed/cores/arduino"
+                "/home/bob/.platformio/packages/framework-arduino-mbed/cores/arduino",
+                "/home/bob/.platformio/packages/framework-arduino-mbed/cores/arduino/as_mbed_library",
+                "/home/bob/.platformio/packages/framework-arduino-mbed/cores/arduino/mbed/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF52/TARGET_MCU_NRF52832",
+                "/home/bob/.platformio/packages/framework-arduino-mbed/cores/arduino/mbed/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF52/TARGET_MCU_NRF52840/device",
+                "/home/bob/.platformio/packages/framework-arduino-mbed/cores/arduino/mbed/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/mdk"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        },
+        {
+            "name": "conf1",
+            "includePath": [
+                "${workspaceFolder}/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
